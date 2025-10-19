@@ -1,24 +1,28 @@
-/* style the body */
+/* Style the body */
 body {
     font-family: Arial;
     margin: 0;
 }
-/* Header/logo Title */
+
+/* Header/Logo Title */
 .header {
-    pad: 60px;
+    padding: 60px;
     text-align: center;
-    .header {
-  background-image: url("https://drive.google.com/file/d/1z2jL6zq0Zd-b4TEH8sDKyxLTxDmHpJP8/view?usp=drivesdk");
-  background-position: center;
+    background-image: url("pemandangan.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    color: black;
+    font-size: 30px;
 }
 
-    color: white;
-    font: 30px;
-}
 /* Page Content */
 .content {
     padding: 20px;
     width: 50%;
-
 }
-
+.header h1 {
+    border: 5px solid #fff;
+    padding: 5px;
+    width: 40%;
+    margin: 0 auto;
+}
